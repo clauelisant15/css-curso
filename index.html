@@ -6,13 +6,6 @@
     <title>Portfoliosss midudev - Ingeniero de Software con 15 años de experiencia</title>
     <meta name=description content="Portfolio de midudev, un ingeniero de software con 15 años de experiencia. Aquí encontrarás proyectos, habilidades y más sobre mi carrera profesional.">
     <style>
-        h1 {
-            color: #000;
-            text-align: center;
-            font-size: 2.5em;
-            margin-top: 20px;
-        }   
-
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -20,13 +13,14 @@
             padding: 0;
             background-color: rgb(216, 191, 195)
         }
-        .link {
+        .link :hover {
+            outline: 10px solid red;
             color: black;
             text-decoration: none;
         }
 
         #show {
-            background-color: aqua;
+            background-color: gray;
             color: aliceblue;
             border: 0;
         }
@@ -61,11 +55,14 @@
         </script>
 
         <main>
-            <p>+15 años de experiencia en desarrollo de software, especializada en aplicaciones web y móviles. <strong> He trabajado con tecnologías como JavaScript, React, Node.js y Python.</strong> Mi pasión es crear soluciones innovadoras que mejoren la vida de las personas.</p>
+            
+            <p class="description">+15 años de experiencia en desarrollo de software, especializada en aplicaciones web y móviles. <strong> He trabajado con tecnologías como JavaScript, React, Node.js y Python.</strong> Mi pasión es crear soluciones innovadoras que mejoren la vida de las personas.</p>
+
+        <h2 id="experiencia">Experiencia profesional</h2>
         <ul>
-            <li>Desarrolladora Frontend en Empresa XYZ (2010-2015)</li>
-            <li>Ingeniera de Software en Empresa ABC (2015-2020)</li>
-            <li>Freelance en proyectos diversos (2020-presente)</li>
+            <li class="list item">Desarrolladora Frontend en Empresa XYZ (2010-2015)</li>
+            <li class="list item">Ingeniera de Software en Empresa ABC (2015-2020)</li>
+            <li class="list item">Freelance en proyectos diversos (2020-presente)</li>
         </ul>
         <a download href="/imagenes/dibujo de chica programadora.avif">
             <img id="photo-image" width="200" height="200"
@@ -83,6 +80,7 @@
             <ol type="1" reversed start="10">
                 <li>HTMIL</li>
                 <li>CSS</li>
+                <li>JavaScript</li>
             
             </ol>
         </aside>
