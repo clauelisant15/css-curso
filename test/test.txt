@@ -1,1 +1,2 @@
 texto de prueba
+git remote add origin https://github.com/usuario/repositorio.git
